@@ -9,3 +9,8 @@ bool Transport::getActivation()
 {
     return activation;
 }
+
+void Transport::setActivation()
+{
+    activation = 1 - activation;
+}

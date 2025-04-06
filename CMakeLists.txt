@@ -1,6 +1,4 @@
-﻿
-#
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 if (POLICY CMP0141)
   cmake_policy(SET CMP0141 NEW)
@@ -16,9 +14,10 @@ add_library(GameRule SHARED
 "Transport.h"
 "Transport.cpp"
 "Air.h"
-"Lend.h"
 "Air.cpp"
+"Lend.h"
 "Lend.cpp"
+"DistancePercent.h"
 )
 
 add_executable (CMakeProjectRacingSimulatorAndDll
